@@ -22,7 +22,7 @@ require 'capistrano/rails'
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 
-set :rbenv_type, :system # or :system, depends on your rbenv setup
+set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, '2.1.5p273'
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
